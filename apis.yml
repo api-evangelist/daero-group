@@ -1,8 +1,16 @@
 aid: daero-group
 name: Daero Group
-description: 'Daero Group is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'DAERO (Daero Group) is a construction-technology company building mobile-first
+  tools for trades and field teams. Its flagship product, ZeroPunch, is a field-operations
+  platform that turns real-time field intuition into structured construction data:
+  voice-first capture lets crews speak field observations in natural language, photos
+  are paired with contextual field data, work is auto-assigned by scope, and stream-of-consciousness
+  notes are converted into organized daily logs. ZeroPunch offers a two-way integration
+  with Procore for project-management sync. The company positions itself around the
+  daily needs of the people actually doing the work, aiming to make construction operations
+  smarter and faster. As of this profile DAERO publishes no public developer API,
+  SDK, or developer portal; integration is partnership-level (Procore) and inquiries
+  go to support@daerogroup.com. Backed by Threshold Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/daero-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,31 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.daerogroup.com/apple-touch-icon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Construction
+- Construction Technology
+- Field Operations
+- Field Service Management
+- Mobile
+- Voice
+- Project Management
+- Trades
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/daero-group-domain-security.yml
 - type: Website
   url: https://www.daerogroup.com/
+- type: Support
+  url: mailto:support@daerogroup.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
